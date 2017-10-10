@@ -15,7 +15,7 @@ namespace Travel.Connectors.Hotel.Tests
             ValuesController valuesController = new ValuesController();
             IEnumerable<string> result = valuesController.Get("test");
 
-            Assert.Equal(result.Count(), 2);
+            Assert.Equal(result.Count(), 3);
         }
     }
 }
